@@ -1,0 +1,31 @@
+{
+  "name": "com.jjasundry.easysingletons",
+  "version": "1.0.0",
+  "displayName": "Easy Singletons",
+  "description": "A Unity package that makes creating singleton classes much easier and reduces clutter in a scene's hierarchy.",
+  "unity": "6000.0",
+  "documentationUrl": "https://github.com/arwtsh/EasySingletons/blob/main/Documentation~/easysingletons.md",
+  "changelogUrl": "https://github.com/arwtsh/EasySingletons/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/arwtsh/EasySingletons/blob/main/LICENSE.MD",
+  "dependencies": {
+ },
+ "keywords": [
+    "Singleton",
+    "Static",
+    "Manager"
+  ],
+  "author": {
+    "name": "Adam White",
+    "email": "jjasundry+gamedev@gmail.com",
+    "url": "https://www.linkedin.com/in/adamwhite302/"
+  },
+  "hideInEditor": "false",
+  "license": "CC-BY-4.0",
+  "samples": [
+    {
+       "displayName": "GameManager",
+       "description": "Shows how to create a singleton script.",
+       "path": "Samples~/GameManager"
+    },
+  ]
+}
