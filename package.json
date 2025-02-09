@@ -26,6 +26,6 @@
        "displayName": "GameManager",
        "description": "Shows how to create a singleton script.",
        "path": "Samples~/GameManager"
-    },
+    }
   ]
 }
