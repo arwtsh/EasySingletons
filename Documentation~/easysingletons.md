@@ -10,7 +10,6 @@ A Unity package that makes creating singleton classes much easier.
 - 1 Assembly Definition
 - 1 Sample
   - 1 Class
-  - 1 Assembly Definition Reference
 
 ## Installation Instructions
 
@@ -24,7 +23,7 @@ Tested on Unity version 6000.0; will most likely work on older versions, but you
 
 ## Description of Assets
 
-All the logic of this package is kept in the class `SingletonManager`. It uses the attribute `RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterAssembliesLoaded)` to have code execute before Unity calls Awake and Start on MonoBehaviors. The function then uses reflection to find all classes that inherit from `Singleton<T>`. It only searches inside it's current assembly, so all scripts that contain singletons should have an `AssemblyDefinitionReference` asset in the same folder pointing to `EasySingletons`.
+All the logic of this package is kept in the class `SingletonManager`. It uses the attribute `RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterAssembliesLoaded)` to have code execute before Unity calls Awake and Start on MonoBehaviors. The function then uses reflection to find all classes that inherit from `Singleton<T>`. It searches all assemblies, both user-defined and engine, for classes that inherit from `Singleton<T>`. This is unfortunate but unavoidable to avoid Assembly-referencing problems.
 
 Classes that inherit from `Singleton<T>` should template the base to it's own class. For example: `class GameManager : Singleton<GameManager>`. Each of these singleton classes has a static property `Instance`, which is auto populated by the `SingletonManager` before any Awake or Start method. It also contains a overridable method, `OnSingletonInit()`. Since these Singletons can't be MonoBehaviors, this method is the equivalent to Awake/Start. It is invoked on each Singleton instance in a random order after every singleton has been instanced. This is any custom initialization code can be written. Singleton classes should not be subclassed, all singleton types should be marked with the `sealed` modifier.
 

@@ -1,6 +1,6 @@
 {
     "name": "EasySingletons",
-    "rootNamespace": "",
+    "rootNamespace": "EasySingletons",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
