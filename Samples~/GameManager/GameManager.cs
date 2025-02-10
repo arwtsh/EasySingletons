@@ -1,4 +1,5 @@
 using UnityEngine;
+using EasySingletons;
 
 public sealed class GameManager : Singleton<GameManager>
 {
