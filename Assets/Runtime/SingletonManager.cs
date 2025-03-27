@@ -18,7 +18,7 @@ namespace EasySingletons
             get { return singletonGameObject; }
             set
             {
-                Assert.IsNull(singletonGameObject, "Tried to set the singleton GameObject for the SingletonManager.");
+                Assert.IsNull(singletonGameObject, "Tried to set the singleton GameObject for the SingletonManager, but it already exists.");
                 Assert.IsNotNull(value, "Cannot set the value of SingletonGameObject to null.");
                 singletonGameObject = value;
             }
