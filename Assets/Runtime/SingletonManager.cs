@@ -63,7 +63,7 @@ namespace EasySingletons
 
             foreach (System.Type type in singletonTypes)
             {
-                System.Object singleton = System.Activator.CreateInstance(type);
+                System.Object singleton = System.Activator.CreateInstance(type, true);
                 Assert.IsNotNull(singleton, "Did not successfuly create instance for singleton " + type.Name);
 
                 PropertyInfo instanceRef = type.BaseType.GetProperty("Instance");
