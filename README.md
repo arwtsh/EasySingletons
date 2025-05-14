@@ -1,4 +1,4 @@
-![Banner](https://github.com/user-attachments/assets/75cd7bee-3fc1-49fa-a807-d1e51b55d35d)
+![Banner](https://github.com/user-attachments/assets/2140c925-4413-49ee-b39d-6c18cff8bcbb)
 
 # Easy Singletons
 
