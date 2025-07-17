@@ -1,0 +1,15 @@
+using EasySingletons;
+
+    #ROOTNAMESPACEBEGIN#
+/// <summary>
+/// 
+/// </summary>
+public sealed class #SCRIPTNAME# : Singleton<#SCRIPTNAME#>
+{
+    // OnSingletonInit is called once before awake and start.
+    protected override void OnSingletonInit()
+    {
+        #NOTRIM#
+    }
+}
+#ROOTNAMESPACEEND#

@@ -1,0 +1,18 @@
+{
+    "name": "EasySingletons.Editor",
+    "rootNamespace": "EasySingletons.Editor",
+    "references": [
+        "GUID:260aaacde011c4e43a33f5544caa25e6"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

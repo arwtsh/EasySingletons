@@ -1,5 +1,15 @@
 # Changelog
 
+## v2.0.0 (7/16/2025)
+
+### Added 
+
+- Script template for singletons in Create->Scripting
+
+### Changed
+
+- Changed package name from easysingletons to easy-singletons. This will break package dependencies.
+
 ## v1.1.0 (2/10/2025)
 
 ### Changed

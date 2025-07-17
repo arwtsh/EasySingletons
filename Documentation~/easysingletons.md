@@ -7,7 +7,9 @@ A Unity package that makes creating singleton classes much easier.
 ## Package contents
 
 - 2 Classes
-- 1 Assembly Definition
+- 1 Runtime Assembly Definition
+- 1 Editor Assembly Definition
+- 1 Script Template
 - 1 Sample
   - 1 Class
 
