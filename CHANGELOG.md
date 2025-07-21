@@ -1,5 +1,15 @@
 # Changelog
 
+## v2.0.1 (7/21/2025)
+
+### Summary
+
+Simplified one little line of code.
+
+### Fixed
+
+- Removed useless function call in the template registration.
+
 ## v2.0.0 (7/16/2025)
 
 ### Added 
