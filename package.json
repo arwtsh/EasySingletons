@@ -1,6 +1,6 @@
 {
   "name": "com.jjasundry.easy-singletons",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "displayName": "Easy Singletons",
   "description": "A Unity package that makes creating singleton classes much easier and reduces clutter in a scene's hierarchy.",
   "unity": "6000.0",
